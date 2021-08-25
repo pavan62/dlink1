@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { BlackComponent } from './black/black.component';
+import { WhiteComponent } from './white/white.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BlackComponent,
+    WhiteComponent
   ],
   imports: [
     BrowserModule,
